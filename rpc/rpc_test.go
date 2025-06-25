@@ -3,7 +3,7 @@ package rpc_test
 import (
 	"testing"
 
-	"github.com/agent-e11/educationalsp/rpc"
+	"github.com/eamonburns/educationalsp/rpc"
 )
 
 type EncodingExample struct {
@@ -12,7 +12,7 @@ type EncodingExample struct {
 
 func TestEncode(t *testing.T) {
 	expected := "Content-Length: 15\r\n\r\n{\"Method\":\"hi\"}"
-	actual := rpc.EncodeMessage(EncodingExample{Method:"hi"})
+	actual := rpc.EncodeMessage(EncodingExample{Method: "hi"})
 
 	if expected != actual {
 		t.Fatalf("Expected: %s, Actual: %s", expected, actual)

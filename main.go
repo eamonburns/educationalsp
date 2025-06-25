@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/agent-e11/educationalsp/lsp"
-	"github.com/agent-e11/educationalsp/rpc"
+	"github.com/eamonburns/educationalsp/lsp"
+	"github.com/eamonburns/educationalsp/rpc"
 )
 
 func main() {

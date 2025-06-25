@@ -1,3 +1,3 @@
-module github.com/agent-e11/educationalsp
+module github.com/eamonburns/educationalsp
 
 go 1.22.5
